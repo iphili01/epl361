@@ -88,16 +88,43 @@ ul h4 {
 	margin-left:450px;
 	width:350px;
 	}
-.box {
+.box_main {
 	overflow: hidden;
-	margin-bottom: 1em;
-	background-color:white;
-	width:250px;
-	padding:10px;
-	float:left;
-	
+margin-bottom: 1em;
+background-color: white;
+width: 400px;
+height: 299px;
+padding: 10px;
+float: left;
 }
-
+#dis_adv_pic
+{
+	margin-left: 32px;
+	}
+#advantage
+{
+width: 334px;
+	}
+#skopos_pic
+{
+width: 250px;
+height: 130px;
+margin-left: 25px;
+margin-top: 13px;
+	}
+#main_pic
+{
+margin-left: 129px;
+margin-top: -22px;
+width:100px;
+height:100px;
+}
+	}
+#skopos
+{
+width: 370px;
+height: 100px;	
+	}
 .date {
 	background: #6E6E6E;
 	padding: 5px 6px 5px 6px;
@@ -218,8 +245,8 @@ ul h4 {
 
 #page {
 	position: relative;
-	width: 250px;
-	height:300px;
+	width: 350px;
+	height:750px;
 	margin: 0;
 	
 }
@@ -386,7 +413,7 @@ ul h4 {
 
 #splash {
 	margin: 0 0 0 0;
-	height: 770px;
+	height: 1070px;
 	position: relative;
 	padding: 10px 10px 5px 10px;
 	width: 960px;
@@ -536,4 +563,23 @@ table.mytable1 td {
 	#username{
 	margin-left: 107px;}
 	
-	
+		<style>
+
+    #columns {
+        width: 600px;
+    }
+
+    #columns .column {
+        position: relative;
+        width: 46%;
+        padding: 1%;
+        border: solid 1px #000;
+    }
+
+    #columns .left {
+        float: left;
+    }
+
+    #columns .right {
+        float: right;
+    }
