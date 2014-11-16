@@ -34,7 +34,7 @@ br.clearfix {
 }
 
 h1,h2,h3,h4 {
-	font-weight: normal;
+	font-weight: small;
 }
 
 h2 {
@@ -182,7 +182,8 @@ height: 100px;
 	position: absolute;
 	top: 0;
 	left: 45px;
-	width: 643px;
+	width: 1000px;
+	margin-left: -32px;
 }
 
 #logo a {
@@ -192,8 +193,8 @@ height: 100px;
 }
 
 #logo h1 {
-	font-size: 2.25em;
-	width:800px;
+	font-size: 25px;
+	width:1000px;
 }
 
 #slogan {
@@ -216,7 +217,7 @@ height: 100px;
 	position: relative;
 	background: #209D9D url(../../../../AppData/Roaming/Adobe/Dreamweaver%20CC%202014.1/en_US/Configuration/Temp/DownloadCache/images/img02.gif) repeat-x top left;
 	margin: 0 0 0 0;
-	height: 40px;
+	height: 60px;
 	line-height: 40px;
 	width: 890px;
 	border-top: solid 1px #5AD7D7;
@@ -327,7 +328,13 @@ height: 100px;
 	color: #DCDCDC;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
+	margin-left: 185px;
 }
+#column_image
+{
+	margin-top: 42px;
+	margin-left: 263px;
+	}
 
 #page-bottom a {
 	color: #F5F5F5;
@@ -576,10 +583,30 @@ table.mytable1 td {
         border: solid 1px #000;
     }
 
-    #columns .left {
+    
+	#columns .left {
         float: left;
-    }
-
+		height:550px;
+	}
     #columns .right {
         float: right;
-    }
+		height:550px;
+      }
+
+
+
+	#scope_skopos
+	{
+		margin-top: 123px;
+		margin-left: 17px;
+		}
+#menu_plai{
+	background-color: #209D9D;
+width: 169px;
+height: 200px;
+margin-top: -1191px;
+margin-left: 7px;
+text-shadow: 0 1px 1px #007D7D;
+border-top: solid 1px #5AD7D7;
+color: #FFFFFF;
+	}
